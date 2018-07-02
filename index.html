@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <title>Rock, Paper, Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+
+<body>   
+    <div id="header">Rock, Paper, Scissors - Online</div>
+
+    <form>
+        <label id="nameInput" for="name-input"> Enter Your Name </label>
+        <input type="text" id="name-input"> 
+
+        <input id="nameInputBtn" type="submit" value="Submit">
+
+    </form>
+
+    <div class="gameContainer p1Container">
+        <div id="p1Note">Add Player 1</div>
+        <div class="selectors">
+            <div class="selection" id="p1Rock" value="rock">Rock</div>
+            <div class="selection" id="p1Paper" value="paper">Paper</div>
+            <div class="selection" id="p1Scissors" value="scissors">Scissors</div>
+        </div>
+        <div id="p1Wl"><span id="p1W">O</span> : Wins</div>    </div>
+
+    <div class="gameContainer infoContainer">
+        Nothing in here yet
+
+    </div>
+
+    <div class="gameContainer p2Container">
+        <div id="p2Note">Add Player 2</div>
+        <div class="selectors">
+            <div class="selection" id="p2Rock" value="rock">Rock</div>
+            <div class="selection" id="p2Paper" value="paper">Paper</div>
+            <div class="selection" id="p2Scissors" value="scissors">Scissors</div>
+        </div>
+        <div id="p2Wl"><span id="p2W">O</span> : Wins</div>
+    </div>
+
+    <div id="chatRoom"></div>
+
+    
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>

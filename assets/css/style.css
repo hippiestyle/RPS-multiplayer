@@ -1,0 +1,25 @@
+.gameContainer {
+    border-style: solid; 
+    border-radius: 2px; 
+    float: left; 
+    margin: 20px; 
+    height: 200px; 
+    width: 150px; 
+
+}
+
+body { 
+    padding: 50px; 
+}
+
+.selectors {
+    visibility: hidden; 
+}
+
+#chatRoom {
+    width: 600px; 
+    height: 400px; 
+    border-style: solid; 
+    border-radius: 5px; 
+
+}
